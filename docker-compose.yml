@@ -1,0 +1,75 @@
+services:
+  postgresql:
+    image: postgres:16-alpine3.20
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: database
+    ports:
+      - 5432:5432
+    volumes:
+      - ./server/infra/postgresql/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:rw
+      - ./server/infra/postgresql/data:/var/lib/postgresql/data:rw
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 100M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 60s
+
+    networks:
+      - backend
+
+  mqttBroker:
+    image: iegomez/mosquitto-go-auth:2.1.0-mosquitto_1.6.14
+    depends_on:
+      - postgresql
+    ports:
+      - 1883:1883
+      - 1884:1884
+
+    volumes:
+      - ./server/infra/broker/data:/mosquitto/data
+      - ./server/infra/broker/log:/mosquitto/log
+      - ./server/infra/broker/mosquitto.conf:/etc/mosquitto/mosquitto.conf
+
+    networks:
+      - backend
+
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 100M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 60s
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ****
+      PGADMIN_DEFAULT_PASSWORD: ****
+    ports:
+      - 5050:80
+    networks:
+      - backend
+
+networks:
+  backend:

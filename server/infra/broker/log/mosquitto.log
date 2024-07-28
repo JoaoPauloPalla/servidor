@@ -1,0 +1,493 @@
+2024-06-17  00:16:18: mosquitto version 2.0.15 starting
+2024-06-17  00:16:18: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:16:18: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:16:18:  ├── Username/password checking enabled.
+2024-06-17  00:16:18:  ├── TLS-PSK checking enabled.
+2024-06-17  00:16:18:  └── Extended authentication not enabled.
+2024-06-17  00:16:18: Opening ipv4 listen socket on port 1883.
+2024-06-17  00:16:18: Opening ipv6 listen socket on port 1883.
+2024-06-17  00:16:18: Opening websockets listen socket on port 1884.
+2024-06-17  00:16:18: mosquitto version 2.0.15 running
+2024-06-17  00:17:48: mosquitto version 2.0.15 terminating
+2024-06-17  00:17:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-17  00:17:54: mosquitto version 2.0.15 starting
+2024-06-17  00:17:54: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:17:54: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:17:54:  ├── Username/password checking enabled.
+2024-06-17  00:17:54:  ├── TLS-PSK checking enabled.
+2024-06-17  00:17:54:  └── Extended authentication not enabled.
+2024-06-17  00:17:54: Opening ipv4 listen socket on port 1883.
+2024-06-17  00:17:54: Opening ipv6 listen socket on port 1883.
+2024-06-17  00:17:54: Opening websockets listen socket on port 1884.
+2024-06-17  00:17:54: mosquitto version 2.0.15 running
+2024-06-17  00:38:58: mosquitto version 2.0.15 terminating
+2024-06-17  00:38:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-17  00:39:05: mosquitto version 2.0.15 starting
+2024-06-17  00:39:05: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:39:05: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:39:05:  ├── Username/password checking enabled.
+2024-06-17  00:39:05:  ├── TLS-PSK checking enabled.
+2024-06-17  00:39:05:  └── Extended authentication not enabled.
+2024-06-17  00:39:41: mosquitto version 2.0.15 starting
+2024-06-17  00:39:41: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:39:41: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:39:41:  ├── Username/password checking enabled.
+2024-06-17  00:39:41:  ├── TLS-PSK checking enabled.
+2024-06-17  00:39:41:  └── Extended authentication not enabled.
+2024-06-17  00:39:58: mosquitto version 2.0.15 starting
+2024-06-17  00:39:58: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:39:58: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:39:58:  ├── Username/password checking enabled.
+2024-06-17  00:39:58:  ├── TLS-PSK checking enabled.
+2024-06-17  00:39:58:  └── Extended authentication not enabled.
+2024-06-17  00:40:34: mosquitto version 2.0.15 starting
+2024-06-17  00:40:34: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:40:34: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:40:34:  ├── Username/password checking enabled.
+2024-06-17  00:40:34:  ├── TLS-PSK checking enabled.
+2024-06-17  00:40:34:  └── Extended authentication not enabled.
+2024-06-17  00:41:52: mosquitto version 2.0.15 starting
+2024-06-17  00:41:52: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:41:52: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:41:52:  ├── Username/password checking enabled.
+2024-06-17  00:41:52:  ├── TLS-PSK checking enabled.
+2024-06-17  00:41:52:  └── Extended authentication not enabled.
+2024-06-17  00:42:50: mosquitto version 2.0.15 starting
+2024-06-17  00:42:50: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:42:50: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:42:50:  ├── Username/password checking enabled.
+2024-06-17  00:42:50:  ├── TLS-PSK checking enabled.
+2024-06-17  00:42:50:  └── Extended authentication not enabled.
+2024-06-17  00:43:13: mosquitto version 2.0.15 starting
+2024-06-17  00:43:13: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:43:13: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:43:13:  ├── Username/password checking enabled.
+2024-06-17  00:43:13:  ├── TLS-PSK checking enabled.
+2024-06-17  00:43:13:  └── Extended authentication not enabled.
+2024-06-17  00:48:32: mosquitto version 2.0.15 starting
+2024-06-17  00:48:32: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:48:32: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:48:32:  ├── Username/password checking enabled.
+2024-06-17  00:48:32:  ├── TLS-PSK checking enabled.
+2024-06-17  00:48:32:  └── Extended authentication not enabled.
+2024-06-17  00:58:29: mosquitto version 2.0.15 starting
+2024-06-17  00:58:29: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  00:58:29: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  00:58:29:  ├── Username/password checking enabled.
+2024-06-17  00:58:29:  ├── TLS-PSK checking enabled.
+2024-06-17  00:58:29:  └── Extended authentication not enabled.
+2024-06-17  23:11:44: mosquitto version 2.0.15 starting
+2024-06-17  23:11:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:11:44: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:11:44:  ├── Username/password checking enabled.
+2024-06-17  23:11:44:  ├── TLS-PSK checking enabled.
+2024-06-17  23:11:44:  └── Extended authentication not enabled.
+2024-06-17  23:21:00: mosquitto version 2.0.15 starting
+2024-06-17  23:21:00: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:21:00: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:21:00:  ├── Username/password checking enabled.
+2024-06-17  23:21:00:  ├── TLS-PSK checking enabled.
+2024-06-17  23:21:00:  └── Extended authentication not enabled.
+2024-06-17  23:21:00: Opening ipv4 listen socket on port 1883.
+2024-06-17  23:21:00: Opening ipv6 listen socket on port 1883.
+2024-06-17  23:21:00: Opening websockets listen socket on port 1884.
+2024-06-17  23:21:00: mosquitto version 2.0.15 running
+2024-06-17  23:24:27: mosquitto version 2.0.15 terminating
+2024-06-17  23:24:27: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+2024-06-17  23:25:13: mosquitto version 2.0.15 starting
+2024-06-17  23:25:13: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:25:13: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:25:13:  ├── Username/password checking enabled.
+2024-06-17  23:25:13:  ├── TLS-PSK checking enabled.
+2024-06-17  23:25:13:  └── Extended authentication not enabled.
+2024-06-17  23:26:24: mosquitto version 2.0.15 starting
+2024-06-17  23:26:24: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:26:24: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:26:24:  ├── Username/password checking enabled.
+2024-06-17  23:26:24:  ├── TLS-PSK checking enabled.
+2024-06-17  23:26:24:  └── Extended authentication not enabled.
+2024-06-17  23:28:19: mosquitto version 2.0.15 starting
+2024-06-17  23:28:19: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:28:19: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:28:19:  ├── Username/password checking enabled.
+2024-06-17  23:28:19:  ├── TLS-PSK checking enabled.
+2024-06-17  23:28:19:  └── Extended authentication not enabled.
+2024-06-17  23:29:50: mosquitto version 2.0.15 starting
+2024-06-17  23:29:50: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:29:50: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:29:50:  ├── Username/password checking enabled.
+2024-06-17  23:29:50:  ├── TLS-PSK checking enabled.
+2024-06-17  23:29:50:  └── Extended authentication not enabled.
+2024-06-17  23:30:29: mosquitto version 2.0.15 starting
+2024-06-17  23:30:29: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:30:29: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:30:29:  ├── Username/password checking enabled.
+2024-06-17  23:30:29:  ├── TLS-PSK checking enabled.
+2024-06-17  23:30:29:  └── Extended authentication not enabled.
+2024-06-17  23:31:01: mosquitto version 2.0.15 starting
+2024-06-17  23:31:01: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:31:01: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:31:01:  ├── Username/password checking enabled.
+2024-06-17  23:31:01:  ├── TLS-PSK checking enabled.
+2024-06-17  23:31:01:  └── Extended authentication not enabled.
+2024-06-17  23:34:30: mosquitto version 2.0.15 starting
+2024-06-17  23:34:30: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:34:30: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:34:30:  ├── Username/password checking enabled.
+2024-06-17  23:34:30:  ├── TLS-PSK checking enabled.
+2024-06-17  23:34:30:  └── Extended authentication not enabled.
+2024-06-17  23:35:19: mosquitto version 2.0.15 starting
+2024-06-17  23:35:19: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:35:19: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:35:19:  ├── Username/password checking enabled.
+2024-06-17  23:35:19:  ├── TLS-PSK checking enabled.
+2024-06-17  23:35:19:  └── Extended authentication not enabled.
+2024-06-17  23:35:45: mosquitto version 2.0.15 starting
+2024-06-17  23:35:45: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:35:45: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:35:45:  ├── Username/password checking enabled.
+2024-06-17  23:35:45:  ├── TLS-PSK checking enabled.
+2024-06-17  23:35:45:  └── Extended authentication not enabled.
+2024-06-17  23:40:08: mosquitto version 2.0.15 starting
+2024-06-17  23:40:08: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:40:08: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:40:08:  ├── Username/password checking enabled.
+2024-06-17  23:40:08:  ├── TLS-PSK checking enabled.
+2024-06-17  23:40:08:  └── Extended authentication not enabled.
+2024-06-17  23:40:30: mosquitto version 2.0.15 starting
+2024-06-17  23:40:30: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:40:30: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:40:30:  ├── Username/password checking enabled.
+2024-06-17  23:40:30:  ├── TLS-PSK checking enabled.
+2024-06-17  23:40:30:  └── Extended authentication not enabled.
+2024-06-17  23:40:30: Opening ipv4 listen socket on port 1883.
+2024-06-17  23:40:30: Opening ipv6 listen socket on port 1883.
+2024-06-17  23:40:30: Opening websockets listen socket on port 1884.
+2024-06-17  23:40:30: mosquitto version 2.0.15 running
+2024-06-17  23:41:10: mosquitto version 2.0.15 terminating
+2024-06-17  23:41:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-17  23:41:17: mosquitto version 2.0.15 starting
+2024-06-17  23:41:17: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:41:17: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:41:17:  ├── Username/password checking enabled.
+2024-06-17  23:41:17:  ├── TLS-PSK checking enabled.
+2024-06-17  23:41:17:  └── Extended authentication not enabled.
+2024-06-17  23:41:17: Opening ipv4 listen socket on port 1883.
+2024-06-17  23:41:17: Opening ipv6 listen socket on port 1883.
+2024-06-17  23:41:17: Opening websockets listen socket on port 1884.
+2024-06-17  23:41:17: mosquitto version 2.0.15 running
+2024-06-17  23:42:48: mosquitto version 2.0.15 terminating
+2024-06-17  23:42:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-17  23:42:56: mosquitto version 2.0.15 starting
+2024-06-17  23:42:56: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:42:56: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:42:56:  ├── Username/password checking enabled.
+2024-06-17  23:42:56:  ├── TLS-PSK checking enabled.
+2024-06-17  23:42:56:  └── Extended authentication not enabled.
+2024-06-17  23:42:56: Opening ipv4 listen socket on port 1883.
+2024-06-17  23:42:56: Opening ipv6 listen socket on port 1883.
+2024-06-17  23:42:56: Opening websockets listen socket on port 1884.
+2024-06-17  23:42:56: mosquitto version 2.0.15 running
+2024-06-17  23:43:37: mosquitto version 2.0.15 terminating
+2024-06-17  23:43:37: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-17  23:43:44: mosquitto version 2.0.15 starting
+2024-06-17  23:43:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-17  23:43:44: Loading plugin: /mosquitto/go-auth.so
+2024-06-17  23:43:44:  ├── Username/password checking enabled.
+2024-06-17  23:43:44:  ├── TLS-PSK checking enabled.
+2024-06-17  23:43:44:  └── Extended authentication not enabled.
+2024-06-17  23:43:44: Opening ipv4 listen socket on port 1883.
+2024-06-17  23:43:44: Opening ipv6 listen socket on port 1883.
+2024-06-17  23:43:44: Opening websockets listen socket on port 1884.
+2024-06-17  23:43:44: mosquitto version 2.0.15 running
+2024-06-18  00:13:44: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  00:43:44: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  01:13:45: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  01:43:46: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  02:13:46: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  02:43:47: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  03:13:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  03:43:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  04:13:49: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  04:43:50: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  05:13:51: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  05:43:51: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  06:13:52: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  06:43:53: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  07:13:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  07:43:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  08:13:55: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  08:43:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  09:13:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  09:43:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  10:13:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  10:43:59: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  11:14:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  11:44:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  12:14:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  12:44:03: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  13:14:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  13:44:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  14:14:05: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  14:44:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  15:14:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  15:44:07: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  16:14:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  16:44:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  17:14:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  17:44:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  18:14:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  18:44:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  19:14:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  19:44:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  20:14:13: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  20:44:13: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  21:14:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  21:44:15: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  22:14:15: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  22:44:16: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-18  22:49:00: mosquitto version 2.0.15 terminating
+2024-06-18  22:49:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-20  00:12:20: mosquitto version 2.0.15 starting
+2024-06-20  00:12:20: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-20  00:12:20: Loading plugin: /mosquitto/go-auth.so
+2024-06-20  00:12:20:  ├── Username/password checking enabled.
+2024-06-20  00:12:20:  ├── TLS-PSK checking enabled.
+2024-06-20  00:12:20:  └── Extended authentication not enabled.
+2024-06-20  00:12:20: Opening ipv4 listen socket on port 1883.
+2024-06-20  00:12:20: Opening ipv6 listen socket on port 1883.
+2024-06-20  00:12:20: Opening websockets listen socket on port 1884.
+2024-06-20  00:12:20: mosquitto version 2.0.15 running
+2024-06-20  00:28:14: mosquitto version 2.0.15 terminating
+2024-06-20  00:28:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  21:48:02: mosquitto version 2.0.15 starting
+2024-06-28  21:48:02: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-28  21:48:02: Loading plugin: /mosquitto/go-auth.so
+2024-06-28  21:48:02:  ├── Username/password checking enabled.
+2024-06-28  21:48:02:  ├── TLS-PSK checking enabled.
+2024-06-28  21:48:02:  └── Extended authentication not enabled.
+2024-06-28  21:48:02: Opening ipv4 listen socket on port 1883.
+2024-06-28  21:48:02: Opening ipv6 listen socket on port 1883.
+2024-06-28  21:48:02: Opening websockets listen socket on port 1884.
+2024-06-28  21:48:02: mosquitto version 2.0.15 running
+2024-06-28  22:18:07: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  22:40:49: mosquitto version 2.0.15 terminating
+2024-06-28  22:40:49: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  22:45:15: mosquitto version 2.0.15 starting
+2024-06-28  22:45:15: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-28  22:45:15: Loading plugin: /mosquitto/go-auth.so
+2024-06-28  22:45:15:  ├── Username/password checking enabled.
+2024-06-28  22:45:15:  ├── TLS-PSK checking enabled.
+2024-06-28  22:45:15:  └── Extended authentication not enabled.
+2024-06-28  22:45:15: Opening ipv4 listen socket on port 1883.
+2024-06-28  22:45:15: Opening ipv6 listen socket on port 1883.
+2024-06-28  22:45:15: Opening websockets listen socket on port 1884.
+2024-06-28  22:45:15: mosquitto version 2.0.15 running
+2024-06-28  22:55:17: mosquitto version 2.0.15 terminating
+2024-06-28  22:55:17: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  22:57:26: mosquitto version 2.0.15 starting
+2024-06-28  22:57:26: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-28  22:57:26: Loading plugin: /mosquitto/go-auth.so
+2024-06-28  22:57:26:  ├── Username/password checking enabled.
+2024-06-28  22:57:26:  ├── TLS-PSK checking enabled.
+2024-06-28  22:57:26:  └── Extended authentication not enabled.
+2024-06-28  22:57:26: Opening ipv4 listen socket on port 1883.
+2024-06-28  22:57:26: Opening ipv6 listen socket on port 1883.
+2024-06-28  22:57:26: Opening websockets listen socket on port 1884.
+2024-06-28  22:57:26: mosquitto version 2.0.15 running
+2024-06-28  23:00:19: mosquitto version 2.0.15 terminating
+2024-06-28  23:00:19: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  23:02:34: mosquitto version 2.0.15 starting
+2024-06-28  23:02:34: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-28  23:02:34: Loading plugin: /mosquitto/go-auth.so
+2024-06-28  23:02:34:  ├── Username/password checking enabled.
+2024-06-28  23:02:34:  ├── TLS-PSK checking enabled.
+2024-06-28  23:02:34:  └── Extended authentication not enabled.
+2024-06-28  23:02:34: Opening ipv4 listen socket on port 1883.
+2024-06-28  23:02:34: Opening ipv6 listen socket on port 1883.
+2024-06-28  23:02:34: Opening websockets listen socket on port 1884.
+2024-06-28  23:02:34: mosquitto version 2.0.15 running
+2024-06-28  23:03:48: mosquitto version 2.0.15 terminating
+2024-06-28  23:03:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-28  23:12:07: mosquitto version 2.0.15 starting
+2024-06-28  23:12:07: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-06-28  23:12:07: Loading plugin: /mosquitto/go-auth.so
+2024-06-28  23:12:07:  ├── Username/password checking enabled.
+2024-06-28  23:12:07:  ├── TLS-PSK checking enabled.
+2024-06-28  23:12:07:  └── Extended authentication not enabled.
+2024-06-28  23:12:07: Opening ipv4 listen socket on port 1883.
+2024-06-28  23:12:07: Opening ipv6 listen socket on port 1883.
+2024-06-28  23:12:07: Opening websockets listen socket on port 1884.
+2024-06-28  23:12:07: mosquitto version 2.0.15 running
+2024-06-28  23:42:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  00:12:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  00:42:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  01:12:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  01:42:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  02:12:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  02:42:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  03:12:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  03:42:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  04:12:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  04:42:13: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  05:12:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  05:42:15: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  06:12:16: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  06:42:17: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  07:12:18: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  07:42:18: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  08:12:19: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  08:42:20: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  09:12:21: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  09:42:22: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  10:12:23: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  10:42:24: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  11:12:25: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  11:42:26: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  12:12:27: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  12:42:27: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  13:12:28: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  13:42:29: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  14:12:29: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  14:42:30: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  15:12:31: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  15:42:32: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  16:12:33: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  16:42:33: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  17:12:34: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  17:42:35: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  18:12:36: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  18:42:37: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  19:12:38: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  19:42:39: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  20:12:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  20:42:41: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  21:12:42: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  21:42:42: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  22:12:43: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  22:42:44: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  23:12:45: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-29  23:42:46: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  00:12:47: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  00:42:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  01:12:49: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  01:42:49: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  02:12:50: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  02:42:51: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  03:12:52: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  03:42:53: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  04:12:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  04:42:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  05:12:55: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  05:42:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  06:12:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  06:42:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  07:12:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  07:42:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  08:12:59: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  08:42:59: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  09:13:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  09:43:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  10:13:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  10:43:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  11:13:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  11:43:03: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  12:13:03: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  12:43:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  13:13:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  13:43:05: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  14:13:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  14:43:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  15:13:07: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  15:43:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  16:13:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  16:43:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  17:13:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  17:43:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  18:13:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  18:43:13: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  19:13:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  19:43:15: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  20:13:16: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  20:43:17: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  21:13:18: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  21:43:18: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-06-30  21:47:01: mosquitto version 2.0.15 terminating
+2024-06-30  21:47:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  18:19:18: mosquitto version 2.0.15 starting
+2024-07-01  18:19:18: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-01  18:19:18: Loading plugin: /mosquitto/go-auth.so
+2024-07-01  18:19:18:  ├── Username/password checking enabled.
+2024-07-01  18:19:18:  ├── TLS-PSK checking enabled.
+2024-07-01  18:19:18:  └── Extended authentication not enabled.
+2024-07-01  18:19:18: Opening ipv4 listen socket on port 1883.
+2024-07-01  18:19:18: Opening ipv6 listen socket on port 1883.
+2024-07-01  18:19:18: Opening websockets listen socket on port 1884.
+2024-07-01  18:19:18: mosquitto version 2.0.15 running
+2024-07-01  18:24:51: mosquitto version 2.0.15 terminating
+2024-07-01  18:24:51: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  18:24:55: mosquitto version 2.0.15 starting
+2024-07-01  18:24:55: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-01  18:24:55: Loading plugin: /mosquitto/go-auth.so
+2024-07-01  18:24:55:  ├── Username/password checking enabled.
+2024-07-01  18:24:55:  ├── TLS-PSK checking enabled.
+2024-07-01  18:24:55:  └── Extended authentication not enabled.
+2024-07-01  18:24:55: Opening ipv4 listen socket on port 1883.
+2024-07-01  18:24:55: Opening ipv6 listen socket on port 1883.
+2024-07-01  18:24:55: Opening websockets listen socket on port 9001.
+2024-07-01  18:24:55: mosquitto version 2.0.15 running
+2024-07-01  18:54:55: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  19:24:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  19:54:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  20:24:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-01  20:54:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-08  22:00:50: mosquitto version 2.0.15 starting
+2024-07-08  22:00:50: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-08  22:00:50: Loading plugin: /mosquitto/go-auth.so
+2024-07-08  22:00:50:  ├── Username/password checking enabled.
+2024-07-08  22:00:50:  ├── TLS-PSK checking enabled.
+2024-07-08  22:00:50:  └── Extended authentication not enabled.
+2024-07-08  22:00:50: Opening ipv4 listen socket on port 1883.
+2024-07-08  22:00:50: Opening ipv6 listen socket on port 1883.
+2024-07-08  22:00:50: mosquitto version 2.0.15 running
+2024-07-08  22:30:52: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-08  23:00:53: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-08  23:30:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  00:00:54: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  00:30:55: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  01:00:56: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  01:30:57: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  02:00:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  02:30:59: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  03:01:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  03:31:00: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  04:01:01: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  04:31:02: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  05:01:03: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  05:31:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  06:01:05: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  06:31:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  07:01:06: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  07:31:07: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  08:01:08: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  08:31:09: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  09:01:10: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  09:31:11: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  10:01:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  10:31:12: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  11:01:13: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  11:31:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-09  11:35:18: mosquitto version 2.0.15 terminating
+2024-07-09  11:35:18: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-24  22:21:44: mosquitto version 2.0.15 starting
+2024-07-24  22:21:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-24  22:21:44: Loading plugin: /mosquitto/go-auth.so
+2024-07-24  22:21:44:  ├── Username/password checking enabled.
+2024-07-24  22:21:44:  ├── TLS-PSK checking enabled.
+2024-07-24  22:21:44:  └── Extended authentication not enabled.
+2024-07-24  22:21:44: Opening ipv4 listen socket on port 1883.
+2024-07-24  22:21:44: Opening ipv6 listen socket on port 1883.
+2024-07-24  22:21:44: Opening websockets listen socket on port 1884.
+2024-07-24  22:21:44: mosquitto version 2.0.15 running
+2024-07-24  22:31:35: mosquitto version 2.0.15 terminating
+2024-07-24  22:31:35: Saving in-memory database to /mosquitto/data//mosquitto.db.
