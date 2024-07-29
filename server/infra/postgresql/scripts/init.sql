@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS "public"."MqttUsers" (
     "isActive" boolean NOT NULL DEFAULT true,
     "createdAt" timestamptz DEFAULT NOW(),
     "updatedAt" timestamptz NULL,
-    PRIMARY KEY ("id"),
+    PRIMARY KEY ("id")
 );
 
 CREATE TABLE IF NOT EXISTS "public"."MqttAcls" (
@@ -30,6 +30,7 @@ CREATE TABLE IF NOT EXISTS "public"."MqttAcls" (
     PRIMARY KEY ("id"),
     FOREIGN KEY ("userId") REFERENCES "public"."MqttUsers"("id") ON UPDATE CASCADE ON DELETE CASCADE 
 );
+
 COMMENT ON COLUMN public."MqttAcls".rw 
     IS 'Options:  0: None / 1: Read / 2: Write / 3: Read and Write / 4: Subscibe / 11: Deny / 999: all permissions';
 

@@ -491,3 +491,205 @@
 2024-07-24  22:21:44: mosquitto version 2.0.15 running
 2024-07-24  22:31:35: mosquitto version 2.0.15 terminating
 2024-07-24  22:31:35: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28  20:45:30: mosquitto version 2.0.15 starting
+2024-07-28  20:45:30: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28  20:45:30: Loading plugin: /mosquitto/go-auth.so
+2024-07-28  20:45:30:  ├── Username/password checking enabled.
+2024-07-28  20:45:30:  ├── TLS-PSK checking enabled.
+2024-07-28  20:45:30:  └── Extended authentication not enabled.
+2024-07-28  20:45:32: mosquitto version 2.0.15 starting
+2024-07-28  20:45:32: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28  20:45:32: Loading plugin: /mosquitto/go-auth.so
+2024-07-28  20:45:32:  ├── Username/password checking enabled.
+2024-07-28  20:45:32:  ├── TLS-PSK checking enabled.
+2024-07-28  20:45:32:  └── Extended authentication not enabled.
+2024-07-28  20:45:35: mosquitto version 2.0.15 starting
+2024-07-28  20:45:35: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28  20:45:35: Loading plugin: /mosquitto/go-auth.so
+2024-07-28  20:45:35:  ├── Username/password checking enabled.
+2024-07-28  20:45:35:  ├── TLS-PSK checking enabled.
+2024-07-28  20:45:35:  └── Extended authentication not enabled.
+2024-07-28  20:45:37: mosquitto version 2.0.15 starting
+2024-07-28  20:45:37: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28  20:45:37: Loading plugin: /mosquitto/go-auth.so
+2024-07-28  20:45:37:  ├── Username/password checking enabled.
+2024-07-28  20:45:37:  ├── TLS-PSK checking enabled.
+2024-07-28  20:45:37:  └── Extended authentication not enabled.
+2024-07-28 20:50:44: mosquitto version 2.0.15 starting
+2024-07-28 20:50:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:50:44: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:50:44:  ├── Username/password checking enabled.
+2024-07-28 20:50:44:  ├── TLS-PSK checking enabled.
+2024-07-28 20:50:44:  └── Extended authentication not enabled.
+2024-07-28 20:50:45: mosquitto version 2.0.15 starting
+2024-07-28 20:50:45: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:50:45: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:50:45:  ├── Username/password checking enabled.
+2024-07-28 20:50:45:  ├── TLS-PSK checking enabled.
+2024-07-28 20:50:45:  └── Extended authentication not enabled.
+2024-07-28 20:50:47: mosquitto version 2.0.15 starting
+2024-07-28 20:50:47: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:50:47: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:50:47:  ├── Username/password checking enabled.
+2024-07-28 20:50:47:  ├── TLS-PSK checking enabled.
+2024-07-28 20:50:47:  └── Extended authentication not enabled.
+2024-07-28 20:50:48: mosquitto version 2.0.15 starting
+2024-07-28 20:50:48: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:50:48: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:50:48:  ├── Username/password checking enabled.
+2024-07-28 20:50:48:  ├── TLS-PSK checking enabled.
+2024-07-28 20:50:48:  └── Extended authentication not enabled.
+2024-07-28 20:55:40: mosquitto version 2.0.15 starting
+2024-07-28 20:55:40: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:55:40: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:55:40:  ├── Username/password checking enabled.
+2024-07-28 20:55:40:  ├── TLS-PSK checking enabled.
+2024-07-28 20:55:40:  └── Extended authentication not enabled.
+2024-07-28 20:55:42: mosquitto version 2.0.15 starting
+2024-07-28 20:55:42: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:55:42: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:55:42:  ├── Username/password checking enabled.
+2024-07-28 20:55:42:  ├── TLS-PSK checking enabled.
+2024-07-28 20:55:42:  └── Extended authentication not enabled.
+2024-07-28 20:55:44: mosquitto version 2.0.15 starting
+2024-07-28 20:55:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:55:44: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:55:44:  ├── Username/password checking enabled.
+2024-07-28 20:55:44:  ├── TLS-PSK checking enabled.
+2024-07-28 20:55:44:  └── Extended authentication not enabled.
+2024-07-28 20:55:45: mosquitto version 2.0.15 starting
+2024-07-28 20:55:45: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:55:45: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:55:45:  ├── Username/password checking enabled.
+2024-07-28 20:55:45:  ├── TLS-PSK checking enabled.
+2024-07-28 20:55:45:  └── Extended authentication not enabled.
+2024-07-28 20:56:44: mosquitto version 2.0.15 starting
+2024-07-28 20:56:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:56:44: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:56:44:  ├── Username/password checking enabled.
+2024-07-28 20:56:44:  ├── TLS-PSK checking enabled.
+2024-07-28 20:56:44:  └── Extended authentication not enabled.
+2024-07-28 20:56:46: mosquitto version 2.0.15 starting
+2024-07-28 20:56:46: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:56:46: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:56:46:  ├── Username/password checking enabled.
+2024-07-28 20:56:46:  ├── TLS-PSK checking enabled.
+2024-07-28 20:56:46:  └── Extended authentication not enabled.
+2024-07-28 20:56:48: mosquitto version 2.0.15 starting
+2024-07-28 20:56:48: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:56:48: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:56:48:  ├── Username/password checking enabled.
+2024-07-28 20:56:48:  ├── TLS-PSK checking enabled.
+2024-07-28 20:56:48:  └── Extended authentication not enabled.
+2024-07-28 20:56:49: mosquitto version 2.0.15 starting
+2024-07-28 20:56:49: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:56:49: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:56:49:  ├── Username/password checking enabled.
+2024-07-28 20:56:49:  ├── TLS-PSK checking enabled.
+2024-07-28 20:56:49:  └── Extended authentication not enabled.
+2024-07-28 20:57:10: mosquitto version 2.0.15 starting
+2024-07-28 20:57:10: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:57:10: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:57:10:  ├── Username/password checking enabled.
+2024-07-28 20:57:10:  ├── TLS-PSK checking enabled.
+2024-07-28 20:57:10:  └── Extended authentication not enabled.
+2024-07-28 20:57:11: mosquitto version 2.0.15 starting
+2024-07-28 20:57:11: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:57:11: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:57:11:  ├── Username/password checking enabled.
+2024-07-28 20:57:11:  ├── TLS-PSK checking enabled.
+2024-07-28 20:57:11:  └── Extended authentication not enabled.
+2024-07-28 20:57:13: mosquitto version 2.0.15 starting
+2024-07-28 20:57:13: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:57:13: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:57:13:  ├── Username/password checking enabled.
+2024-07-28 20:57:13:  ├── TLS-PSK checking enabled.
+2024-07-28 20:57:13:  └── Extended authentication not enabled.
+2024-07-28 20:57:14: mosquitto version 2.0.15 starting
+2024-07-28 20:57:14: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:57:14: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:57:14:  ├── Username/password checking enabled.
+2024-07-28 20:57:14:  ├── TLS-PSK checking enabled.
+2024-07-28 20:57:14:  └── Extended authentication not enabled.
+2024-07-28 20:58:01: mosquitto version 2.0.15 starting
+2024-07-28 20:58:01: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:58:01: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:58:01:  ├── Username/password checking enabled.
+2024-07-28 20:58:01:  ├── TLS-PSK checking enabled.
+2024-07-28 20:58:01:  └── Extended authentication not enabled.
+2024-07-28 20:58:01: Opening ipv4 listen socket on port 1883.
+2024-07-28 20:58:01: Opening ipv6 listen socket on port 1883.
+2024-07-28 20:58:01: Opening websockets listen socket on port 1884.
+2024-07-28 20:58:01: mosquitto version 2.0.15 running
+2024-07-28 20:58:48: mosquitto version 2.0.15 terminating
+2024-07-28 20:58:48: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28 20:58:56: mosquitto version 2.0.15 starting
+2024-07-28 20:58:56: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 20:58:56: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 20:58:56:  ├── Username/password checking enabled.
+2024-07-28 20:58:56:  ├── TLS-PSK checking enabled.
+2024-07-28 20:58:56:  └── Extended authentication not enabled.
+2024-07-28 20:58:56: Opening ipv4 listen socket on port 1883.
+2024-07-28 20:58:56: Opening ipv6 listen socket on port 1883.
+2024-07-28 20:58:56: Opening websockets listen socket on port 1884.
+2024-07-28 20:58:56: mosquitto version 2.0.15 running
+2024-07-28 21:01:07: mosquitto version 2.0.15 starting
+2024-07-28 21:01:07: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 21:01:07: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 21:01:07:  ├── Username/password checking enabled.
+2024-07-28 21:01:07:  ├── TLS-PSK checking enabled.
+2024-07-28 21:01:07:  └── Extended authentication not enabled.
+2024-07-28 21:01:07: Opening ipv4 listen socket on port 1883.
+2024-07-28 21:01:07: Opening ipv6 listen socket on port 1883.
+2024-07-28 21:01:07: Opening websockets listen socket on port 1884.
+2024-07-28 21:01:07: mosquitto version 2.0.15 running
+2024-07-28 21:03:40: mosquitto version 2.0.15 terminating
+2024-07-28 21:03:40: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28 21:03:44: mosquitto version 2.0.15 starting
+2024-07-28 21:03:44: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 21:03:44: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 21:03:44:  ├── Username/password checking enabled.
+2024-07-28 21:03:44:  ├── TLS-PSK checking enabled.
+2024-07-28 21:03:44:  └── Extended authentication not enabled.
+2024-07-28 21:03:44: Opening ipv4 listen socket on port 1883.
+2024-07-28 21:03:44: Opening ipv6 listen socket on port 1883.
+2024-07-28 21:03:44: Opening websockets listen socket on port 1884.
+2024-07-28 21:03:44: mosquitto version 2.0.15 running
+2024-07-28 21:04:14: mosquitto version 2.0.15 terminating
+2024-07-28 21:04:14: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28 21:32:15: mosquitto version 2.0.15 starting
+2024-07-28 21:32:15: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 21:32:15: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 21:32:15:  ├── Username/password checking enabled.
+2024-07-28 21:32:15:  ├── TLS-PSK checking enabled.
+2024-07-28 21:32:15:  └── Extended authentication not enabled.
+2024-07-28 21:32:15: Opening ipv4 listen socket on port 1883.
+2024-07-28 21:32:15: Opening ipv6 listen socket on port 1883.
+2024-07-28 21:32:15: Opening websockets listen socket on port 1884.
+2024-07-28 21:32:15: mosquitto version 2.0.15 running
+2024-07-28 21:38:58: mosquitto version 2.0.15 terminating
+2024-07-28 21:38:58: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28 21:39:27: mosquitto version 2.0.15 starting
+2024-07-28 21:39:27: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 21:39:27: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 21:39:27:  ├── Username/password checking enabled.
+2024-07-28 21:39:27:  ├── TLS-PSK checking enabled.
+2024-07-28 21:39:27:  └── Extended authentication not enabled.
+2024-07-28 21:39:27: Opening ipv4 listen socket on port 1883.
+2024-07-28 21:39:27: Opening ipv6 listen socket on port 1883.
+2024-07-28 21:39:27: Opening websockets listen socket on port 1884.
+2024-07-28 21:39:27: mosquitto version 2.0.15 running
+2024-07-28 21:40:20: mosquitto version 2.0.15 terminating
+2024-07-28 21:40:20: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-07-28 21:44:16: mosquitto version 2.0.15 starting
+2024-07-28 21:44:16: Config loaded from /etc/mosquitto/mosquitto.conf.
+2024-07-28 21:44:16: Loading plugin: /mosquitto/go-auth.so
+2024-07-28 21:44:16:  ├── Username/password checking enabled.
+2024-07-28 21:44:16:  ├── TLS-PSK checking enabled.
+2024-07-28 21:44:16:  └── Extended authentication not enabled.
+2024-07-28 21:44:16: Opening ipv4 listen socket on port 1883.
+2024-07-28 21:44:16: Opening ipv6 listen socket on port 1883.
+2024-07-28 21:44:16: Opening websockets listen socket on port 1884.
+2024-07-28 21:44:16: mosquitto version 2.0.15 running
+2024-07-28 21:46:38: mosquitto version 2.0.15 terminating
+2024-07-28 21:46:38: Saving in-memory database to /mosquitto/data//mosquitto.db.
