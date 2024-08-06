@@ -36,3 +36,4 @@ next-env.d.ts
 #Diretorios
 ./infra/mongo/data/
 ./infra/postgresql/data/
+./infra/mosquitto/data/
