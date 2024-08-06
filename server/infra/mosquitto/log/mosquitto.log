@@ -1,0 +1,395 @@
+2024-08-05 22:07:35: mosquitto version 2.0.18 starting
+2024-08-05 22:07:35: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 22:07:35: Starting in local only mode. Connections will only be possible from clients running on this machine.
+2024-08-05 22:07:35: Create a configuration file which defines a listener to allow remote access.
+2024-08-05 22:07:35: For more details see https://mosquitto.org/documentation/authentication-methods/
+2024-08-05 22:07:35: Opening ipv4 listen socket on port 1883.
+2024-08-05 22:07:35: Opening ipv6 listen socket on port 1883.
+2024-08-05 22:07:35: mosquitto version 2.0.18 running
+2024-08-05 22:08:04: mosquitto version 2.0.18 terminating
+2024-08-05 22:08:04: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-08-05 22:08:14: mosquitto version 2.0.18 starting
+2024-08-05 22:08:14: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 22:08:14: Starting in local only mode. Connections will only be possible from clients running on this machine.
+2024-08-05 22:08:14: Create a configuration file which defines a listener to allow remote access.
+2024-08-05 22:08:14: For more details see https://mosquitto.org/documentation/authentication-methods/
+2024-08-05 22:08:14: Opening ipv4 listen socket on port 1883.
+2024-08-05 22:08:14: Opening ipv6 listen socket on port 1883.
+2024-08-05 22:08:14: mosquitto version 2.0.18 running
+2024-08-05 22:12:24: mosquitto version 2.0.18 terminating
+2024-08-05 22:12:24: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-08-05 23:20:23: mosquitto version 2.0.18 starting
+2024-08-05 23:20:23: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:20:23: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-05 23:20:23: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:20:23: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:20:23: Opening websockets listen socket on port 9001.
+2024-08-05 23:20:23: mosquitto version 2.0.18 running
+2024-08-05 23:21:31: mosquitto version 2.0.18 terminating
+2024-08-05 23:21:31: Saving in-memory database to /mosquitto/data//mosquitto.db.
+2024-08-05 23:21:50: mosquitto version 2.0.18 starting
+2024-08-05 23:21:50: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:21:50: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:21:50: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:21:50: Opening websockets listen socket on port 9001.
+2024-08-05 23:21:50: mosquitto version 2.0.18 running
+2024-08-05 23:23:42: New connection from 172.18.0.1:41164 on port 1883.
+2024-08-05 23:23:42: Sending CONNACK to auto-A56D0557-549B-233B-CA28-C9DC5C0BB79E (0, 5)
+2024-08-05 23:23:42: Client auto-A56D0557-549B-233B-CA28-C9DC5C0BB79E disconnected, not authorised.
+2024-08-05 23:24:14: New connection from 172.18.0.1:36602 on port 1883.
+2024-08-05 23:24:14: Sending CONNACK to auto-BD7B93F6-9D34-1BE6-B038-E4FFD5405F20 (0, 5)
+2024-08-05 23:24:14: Client auto-BD7B93F6-9D34-1BE6-B038-E4FFD5405F20 disconnected, not authorised.
+2024-08-05 23:24:36: New connection from 172.18.0.1:43676 on port 1883.
+2024-08-05 23:24:36: Sending CONNACK to auto-85ACB643-2D52-A2A0-3A6E-BBF70448B149 (0, 5)
+2024-08-05 23:24:36: Client auto-85ACB643-2D52-A2A0-3A6E-BBF70448B149 disconnected, not authorised.
+2024-08-05 23:24:48: New connection from 172.18.0.1:55584 on port 1883.
+2024-08-05 23:24:48: Sending CONNACK to auto-1EE8A76F-A3DD-5C35-FAC4-6E1F73DC2179 (0, 5)
+2024-08-05 23:24:48: Client auto-1EE8A76F-A3DD-5C35-FAC4-6E1F73DC2179 disconnected, not authorised.
+2024-08-05 23:24:53: New connection from 172.18.0.1:55586 on port 1883.
+2024-08-05 23:24:53: Sending CONNACK to auto-27E2A106-0C70-1305-D1B9-081DBFCAC0AC (0, 5)
+2024-08-05 23:24:53: Client auto-27E2A106-0C70-1305-D1B9-081DBFCAC0AC disconnected, not authorised.
+2024-08-05 23:25:12: New connection from 172.18.0.1:39650 on port 1883.
+2024-08-05 23:25:12: Sending CONNACK to auto-6F180779-3980-F229-A4D4-D4AE50163A49 (0, 5)
+2024-08-05 23:25:12: Client auto-6F180779-3980-F229-A4D4-D4AE50163A49 disconnected, not authorised.
+2024-08-05 23:29:02: mosquitto version 2.0.18 terminating
+2024-08-05 23:29:02: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:30:08: mosquitto version 2.0.18 starting
+2024-08-05 23:30:08: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:08: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:08: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:08: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:08: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:08: Error: Address in use
+2024-08-05 23:30:31: mosquitto version 2.0.18 starting
+2024-08-05 23:30:31: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:31: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:31: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:31: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:31: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:31: Error: Address in use
+2024-08-05 23:30:32: mosquitto version 2.0.18 starting
+2024-08-05 23:30:32: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:32: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:32: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:32: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:32: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:32: Error: Address in use
+2024-08-05 23:30:33: mosquitto version 2.0.18 starting
+2024-08-05 23:30:33: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:33: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:33: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:33: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:33: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:33: Error: Address in use
+2024-08-05 23:30:34: mosquitto version 2.0.18 starting
+2024-08-05 23:30:34: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:34: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:34: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:34: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:34: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:34: Error: Address in use
+2024-08-05 23:30:36: mosquitto version 2.0.18 starting
+2024-08-05 23:30:36: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:36: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:36: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:36: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:36: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:36: Error: Address in use
+2024-08-05 23:30:38: mosquitto version 2.0.18 starting
+2024-08-05 23:30:38: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:38: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:38: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:38: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:38: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:38: Error: Address in use
+2024-08-05 23:30:42: mosquitto version 2.0.18 starting
+2024-08-05 23:30:42: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:42: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:42: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:42: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:42: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:42: Error: Address in use
+2024-08-05 23:30:48: mosquitto version 2.0.18 starting
+2024-08-05 23:30:48: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:30:48: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:48: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:30:48: Opening websockets listen socket on port 9001.
+2024-08-05 23:30:48: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:30:48: Error: Address in use
+2024-08-05 23:31:02: mosquitto version 2.0.18 starting
+2024-08-05 23:31:02: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:31:02: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:02: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:31:02: Opening websockets listen socket on port 9001.
+2024-08-05 23:31:02: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:02: Error: Address in use
+2024-08-05 23:31:54: mosquitto version 2.0.18 starting
+2024-08-05 23:31:54: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:31:54: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:54: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:31:54: Opening websockets listen socket on port 9001.
+2024-08-05 23:31:54: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:54: Error: Address in use
+2024-08-05 23:31:56: mosquitto version 2.0.18 starting
+2024-08-05 23:31:56: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:31:56: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:56: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:31:56: Opening websockets listen socket on port 9001.
+2024-08-05 23:31:56: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:56: Error: Address in use
+2024-08-05 23:31:57: mosquitto version 2.0.18 starting
+2024-08-05 23:31:57: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:31:57: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:57: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:31:57: Opening websockets listen socket on port 9001.
+2024-08-05 23:31:57: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:57: Error: Address in use
+2024-08-05 23:31:58: mosquitto version 2.0.18 starting
+2024-08-05 23:31:58: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:31:58: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:58: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:31:58: Opening websockets listen socket on port 9001.
+2024-08-05 23:31:58: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:31:58: Error: Address in use
+2024-08-05 23:32:00: mosquitto version 2.0.18 starting
+2024-08-05 23:32:00: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:32:00: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:00: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:32:00: Opening websockets listen socket on port 9001.
+2024-08-05 23:32:00: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:00: Error: Address in use
+2024-08-05 23:32:02: mosquitto version 2.0.18 starting
+2024-08-05 23:32:02: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:32:02: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:02: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:32:02: Opening websockets listen socket on port 9001.
+2024-08-05 23:32:02: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:02: Error: Address in use
+2024-08-05 23:32:06: mosquitto version 2.0.18 starting
+2024-08-05 23:32:06: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:32:06: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:06: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:32:06: Opening websockets listen socket on port 9001.
+2024-08-05 23:32:06: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:06: Error: Address in use
+2024-08-05 23:32:13: mosquitto version 2.0.18 starting
+2024-08-05 23:32:13: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:32:13: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:13: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:32:13: Opening websockets listen socket on port 9001.
+2024-08-05 23:32:13: mosquitto version 2.0.18 running
+2024-08-05 23:32:15: mosquitto version 2.0.18 terminating
+2024-08-05 23:32:15: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:32:19: mosquitto version 2.0.18 starting
+2024-08-05 23:32:19: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:32:19: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:32:19: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:32:19: Opening websockets listen socket on port 9001.
+2024-08-05 23:32:19: mosquitto version 2.0.18 running
+2024-08-05 23:32:36: New connection from 172.18.0.1:34946 on port 1883.
+2024-08-05 23:32:36: Sending CONNACK to auto-906F40C6-BE55-8D34-414D-FCE3011CED42 (0, 5)
+2024-08-05 23:32:36: Client auto-906F40C6-BE55-8D34-414D-FCE3011CED42 disconnected, not authorised.
+2024-08-05 23:35:14: mosquitto version 2.0.18 terminating
+2024-08-05 23:35:14: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:35:24: mosquitto version 2.0.18 starting
+2024-08-05 23:35:24: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:35:24: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:35:24: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:35:24: Opening websockets listen socket on port 9001.
+2024-08-05 23:35:24: mosquitto version 2.0.18 running
+2024-08-05 23:41:45: New connection from 172.18.0.1:45750 on port 1883.
+2024-08-05 23:41:45: Sending CONNACK to auto-EB09A37D-D1A8-9947-7EB0-1B1FCFC1AB30 (0, 5)
+2024-08-05 23:41:45: Client auto-EB09A37D-D1A8-9947-7EB0-1B1FCFC1AB30 disconnected, not authorised.
+2024-08-05 23:42:56: New connection from 172.18.0.1:55600 on port 1883.
+2024-08-05 23:42:56: Sending CONNACK to auto-E7AF0639-30D3-B328-E139-65918B35193C (0, 5)
+2024-08-05 23:42:56: Client auto-E7AF0639-30D3-B328-E139-65918B35193C disconnected, not authorised.
+2024-08-05 23:43:20: mosquitto version 2.0.18 terminating
+2024-08-05 23:43:20: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:43:29: mosquitto version 2.0.18 starting
+2024-08-05 23:43:29: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:43:29: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:43:29: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:43:29: Opening websockets listen socket on port 9001.
+2024-08-05 23:43:29: mosquitto version 2.0.18 running
+2024-08-05 23:44:52: mosquitto version 2.0.18 terminating
+2024-08-05 23:44:52: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:44:56: mosquitto version 2.0.18 starting
+2024-08-05 23:44:56: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:44:56: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:44:56: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:44:56: Opening websockets listen socket on port 9001.
+2024-08-05 23:44:56: mosquitto version 2.0.18 running
+2024-08-05 23:45:07: New connection from 172.18.0.1:44212 on port 1883.
+2024-08-05 23:45:07: Sending CONNACK to auto-80F78439-FFC7-6DE4-891F-CBC6CB036DB7 (0, 5)
+2024-08-05 23:45:07: Client auto-80F78439-FFC7-6DE4-891F-CBC6CB036DB7 disconnected, not authorised.
+2024-08-05 23:45:27: New connection from 172.18.0.1:35974 on port 1883.
+2024-08-05 23:45:27: Sending CONNACK to auto-165AC97A-74D1-644A-1B78-C714946D0D09 (0, 5)
+2024-08-05 23:45:27: Client auto-165AC97A-74D1-644A-1B78-C714946D0D09 disconnected, not authorised.
+2024-08-05 23:46:33: New connection from 172.18.0.1:38002 on port 1883.
+2024-08-05 23:46:33: Sending CONNACK to auto-F056F839-F4DE-8490-4D55-AFBD9E59CE8C (0, 5)
+2024-08-05 23:46:33: Client auto-F056F839-F4DE-8490-4D55-AFBD9E59CE8C disconnected, not authorised.
+2024-08-05 23:46:49: New connection from 172.18.0.1:52830 on port 1883.
+2024-08-05 23:46:49: Sending CONNACK to auto-993CE58B-B3F9-6B66-5DD6-D2916698FB7D (0, 5)
+2024-08-05 23:46:49: Client auto-993CE58B-B3F9-6B66-5DD6-D2916698FB7D disconnected, not authorised.
+2024-08-05 23:47:00: New connection from 172.18.0.1:53630 on port 1883.
+2024-08-05 23:47:00: Sending CONNACK to auto-F642C441-6069-2B63-C513-6D0CCC450C44 (0, 5)
+2024-08-05 23:47:00: Client auto-F642C441-6069-2B63-C513-6D0CCC450C44 disconnected, not authorised.
+2024-08-05 23:47:15: mosquitto version 2.0.18 terminating
+2024-08-05 23:47:15: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:47:57: mosquitto version 2.0.18 starting
+2024-08-05 23:47:57: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:47:57: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:47:57: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:47:57: Opening websockets listen socket on port 9001.
+2024-08-05 23:47:57: mosquitto version 2.0.18 running
+2024-08-05 23:48:13: New connection from 172.18.0.1:39328 on port 1883.
+2024-08-05 23:48:13: New client connected from 172.18.0.1:39328 as auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D (p2, c1, k60).
+2024-08-05 23:48:13: No will message specified.
+2024-08-05 23:48:13: Sending CONNACK to auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D (0, 0)
+2024-08-05 23:48:13: Received SUBSCRIBE from auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D
+2024-08-05 23:48:13: 	topic (QoS 0)
+2024-08-05 23:48:13: auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D 0 topic
+2024-08-05 23:48:13: Sending SUBACK to auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D
+2024-08-05 23:48:26: Received DISCONNECT from auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D
+2024-08-05 23:48:26: Client auto-E5E657C0-FAD2-4DFE-D4F7-FBDC67C3334D disconnected.
+2024-08-05 23:49:09: mosquitto version 2.0.18 terminating
+2024-08-05 23:49:09: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:49:10: mosquitto version 2.0.18 starting
+2024-08-05 23:49:10: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:49:10: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:49:10: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:49:10: Opening websockets listen socket on port 9001.
+2024-08-05 23:49:10: mosquitto version 2.0.18 running
+2024-08-05 23:49:13: New connection from 172.18.0.1:33108 on port 1883.
+2024-08-05 23:49:13: Sending CONNACK to auto-33683023-4766-A31E-87D6-5B1DB9FF6F1F (0, 5)
+2024-08-05 23:49:13: Client auto-33683023-4766-A31E-87D6-5B1DB9FF6F1F disconnected, not authorised.
+2024-08-05 23:49:27: New connection from 172.18.0.1:41112 on port 1883.
+2024-08-05 23:49:27: New client connected from 172.18.0.1:41112 as auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF (p2, c1, k60, u'user').
+2024-08-05 23:49:27: No will message specified.
+2024-08-05 23:49:27: Sending CONNACK to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF (0, 0)
+2024-08-05 23:49:27: Received SUBSCRIBE from auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:49:27: 	topic (QoS 0)
+2024-08-05 23:49:27: auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF 0 topic
+2024-08-05 23:49:27: Sending SUBACK to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:50:26: New connection from 172.18.0.1:46666 on port 1883.
+2024-08-05 23:50:26: Sending CONNACK to auto-BED22D76-899A-5276-8612-41A211982140 (0, 5)
+2024-08-05 23:50:26: Client auto-BED22D76-899A-5276-8612-41A211982140 disconnected, not authorised.
+2024-08-05 23:50:27: Received PINGREQ from auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:50:27: Sending PINGRESP to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:50:42: New connection from 172.18.0.1:45064 on port 1883.
+2024-08-05 23:50:42: New client connected from 172.18.0.1:45064 as auto-CF755F0B-9A1F-2909-6F16-8803DE31D998 (p2, c1, k60, u'user').
+2024-08-05 23:50:42: No will message specified.
+2024-08-05 23:50:42: Sending CONNACK to auto-CF755F0B-9A1F-2909-6F16-8803DE31D998 (0, 0)
+2024-08-05 23:50:42: Received PUBLISH from auto-CF755F0B-9A1F-2909-6F16-8803DE31D998 (d0, q0, r0, m0, 'topic', ... (5 bytes))
+2024-08-05 23:50:42: Sending PUBLISH to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF (d0, q0, r0, m0, 'topic', ... (5 bytes))
+2024-08-05 23:50:42: Received DISCONNECT from auto-CF755F0B-9A1F-2909-6F16-8803DE31D998
+2024-08-05 23:50:42: Client auto-CF755F0B-9A1F-2909-6F16-8803DE31D998 disconnected.
+2024-08-05 23:50:52: New connection from 172.18.0.1:53186 on port 1883.
+2024-08-05 23:50:52: New client connected from 172.18.0.1:53186 as auto-8A42AB66-34CA-E369-75B1-7D8F9607575F (p2, c1, k60, u'user').
+2024-08-05 23:50:52: No will message specified.
+2024-08-05 23:50:52: Sending CONNACK to auto-8A42AB66-34CA-E369-75B1-7D8F9607575F (0, 0)
+2024-08-05 23:50:52: Received PUBLISH from auto-8A42AB66-34CA-E369-75B1-7D8F9607575F (d0, q0, r0, m0, 'topic', ... (10 bytes))
+2024-08-05 23:50:52: Sending PUBLISH to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF (d0, q0, r0, m0, 'topic', ... (10 bytes))
+2024-08-05 23:50:52: Received DISCONNECT from auto-8A42AB66-34CA-E369-75B1-7D8F9607575F
+2024-08-05 23:50:52: Client auto-8A42AB66-34CA-E369-75B1-7D8F9607575F disconnected.
+2024-08-05 23:51:03: New connection from 172.18.0.1:54654 on port 1883.
+2024-08-05 23:51:03: Sending CONNACK to auto-D1420E4F-84A8-F51E-8584-E8274A572709 (0, 5)
+2024-08-05 23:51:03: Client auto-D1420E4F-84A8-F51E-8584-E8274A572709 disconnected, not authorised.
+2024-08-05 23:51:27: Received PINGREQ from auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:51:27: Sending PINGRESP to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:52:27: Received PINGREQ from auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:52:27: Sending PINGRESP to auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:52:28: Received DISCONNECT from auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF
+2024-08-05 23:52:28: Client auto-BA09B894-4D79-06EF-EBAE-705EEDEA05BF disconnected.
+2024-08-05 23:55:09: New connection from 172.18.0.1:33026 on port 1883.
+2024-08-05 23:55:09: Sending CONNACK to auto-29E6EE21-4605-855F-F442-9D015BBE8E07 (0, 5)
+2024-08-05 23:55:09: Client auto-29E6EE21-4605-855F-F442-9D015BBE8E07 disconnected, not authorised.
+2024-08-05 23:55:21: mosquitto version 2.0.18 terminating
+2024-08-05 23:55:21: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:55:22: mosquitto version 2.0.18 starting
+2024-08-05 23:55:22: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:55:22: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-05 23:55:22: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:55:22: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:55:22: Opening websockets listen socket on port 9001.
+2024-08-05 23:55:22: mosquitto version 2.0.18 running
+2024-08-05 23:55:25: New connection from 172.18.0.1:48692 on port 1883.
+2024-08-05 23:55:25: New client connected from 172.18.0.1:48692 as auto-6333F836-B5E6-E808-BC10-08810EF7B185 (p2, c1, k60, u'next').
+2024-08-05 23:55:25: No will message specified.
+2024-08-05 23:55:25: Sending CONNACK to auto-6333F836-B5E6-E808-BC10-08810EF7B185 (0, 0)
+2024-08-05 23:55:25: Received SUBSCRIBE from auto-6333F836-B5E6-E808-BC10-08810EF7B185
+2024-08-05 23:55:25: 	topic (QoS 0)
+2024-08-05 23:55:25: auto-6333F836-B5E6-E808-BC10-08810EF7B185 0 topic
+2024-08-05 23:55:25: Sending SUBACK to auto-6333F836-B5E6-E808-BC10-08810EF7B185
+2024-08-05 23:55:41: New connection from 172.18.0.1:38100 on port 1883.
+2024-08-05 23:55:41: New client connected from 172.18.0.1:38100 as auto-C0B32CBC-353F-01D4-4708-C8672EA8C78E (p2, c1, k60, u'esp').
+2024-08-05 23:55:41: No will message specified.
+2024-08-05 23:55:41: Sending CONNACK to auto-C0B32CBC-353F-01D4-4708-C8672EA8C78E (0, 0)
+2024-08-05 23:55:41: Received PUBLISH from auto-C0B32CBC-353F-01D4-4708-C8672EA8C78E (d0, q0, r0, m0, 'topic', ... (10 bytes))
+2024-08-05 23:55:41: Sending PUBLISH to auto-6333F836-B5E6-E808-BC10-08810EF7B185 (d0, q0, r0, m0, 'topic', ... (10 bytes))
+2024-08-05 23:55:41: Received DISCONNECT from auto-C0B32CBC-353F-01D4-4708-C8672EA8C78E
+2024-08-05 23:55:41: Client auto-C0B32CBC-353F-01D4-4708-C8672EA8C78E disconnected.
+2024-08-05 23:55:48: Received DISCONNECT from auto-6333F836-B5E6-E808-BC10-08810EF7B185
+2024-08-05 23:55:48: Client auto-6333F836-B5E6-E808-BC10-08810EF7B185 disconnected.
+2024-08-05 23:56:12: mosquitto version 2.0.18 terminating
+2024-08-05 23:56:12: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:56:13: mosquitto version 2.0.18 starting
+2024-08-05 23:56:13: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:56:13: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-05 23:56:13: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:56:13: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:56:13: Opening websockets listen socket on port 9001.
+2024-08-05 23:56:13: mosquitto version 2.0.18 running
+2024-08-05 23:57:13: mosquitto version 2.0.18 terminating
+2024-08-05 23:57:13: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-05 23:57:14: mosquitto version 2.0.18 starting
+2024-08-05 23:57:14: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-05 23:57:14: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-05 23:57:14: Opening ipv4 listen socket on port 1883.
+2024-08-05 23:57:14: Opening ipv6 listen socket on port 1883.
+2024-08-05 23:57:14: Opening websockets listen socket on port 9001.
+2024-08-05 23:57:14: mosquitto version 2.0.18 running
+2024-08-06 00:00:55: mosquitto version 2.0.18 terminating
+2024-08-06 00:00:55: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-06 00:00:56: mosquitto version 2.0.18 starting
+2024-08-06 00:00:56: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-06 00:00:56: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-06 00:00:56: Opening ipv4 listen socket on port 1883.
+2024-08-06 00:00:56: Opening ipv6 listen socket on port 1883.
+2024-08-06 00:00:56: Opening websockets listen socket on port 1884.
+2024-08-06 00:00:56: mosquitto version 2.0.18 running
+2024-08-06 00:01:19: mosquitto version 2.0.18 terminating
+2024-08-06 00:01:19: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-06 00:01:20: mosquitto version 2.0.18 starting
+2024-08-06 00:01:20: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-06 00:01:20: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-06 00:01:20: Opening ipv4 listen socket on port 1883.
+2024-08-06 00:01:20: Opening ipv6 listen socket on port 1883.
+2024-08-06 00:01:20: Opening websockets listen socket on port 1884.
+2024-08-06 00:01:20: mosquitto version 2.0.18 running
+2024-08-06 00:01:45: mosquitto version 2.0.18 terminating
+2024-08-06 00:01:45: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-06 00:01:46: mosquitto version 2.0.18 starting
+2024-08-06 00:01:46: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-06 00:01:46: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-06 00:01:46: Opening ipv4 listen socket on port 1883.
+2024-08-06 00:01:46: Opening ipv6 listen socket on port 1883.
+2024-08-06 00:01:46: Opening websockets listen socket on port 1884.
+2024-08-06 00:01:46: mosquitto version 2.0.18 running
+2024-08-06 00:04:55: mosquitto version 2.0.18 terminating
+2024-08-06 00:04:55: Saving in-memory database to /mosquitto/data/mosquitto.db.
+2024-08-06 00:05:51: mosquitto version 2.0.18 starting
+2024-08-06 00:05:51: Config loaded from /mosquitto/config/mosquitto.conf.
+2024-08-06 00:05:51: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+2024-08-06 00:05:51: Opening ipv4 listen socket on port 1883.
+2024-08-06 00:05:51: Opening ipv6 listen socket on port 1883.
+2024-08-06 00:05:51: Opening websockets listen socket on port 1884.
+2024-08-06 00:05:51: mosquitto version 2.0.18 running
