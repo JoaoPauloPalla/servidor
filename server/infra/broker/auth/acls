@@ -1,7 +1,0 @@
-user service
-topic read service/config/#
-topic write service/#
-
-user manager
-topic read service/#
-topic write service/config/#

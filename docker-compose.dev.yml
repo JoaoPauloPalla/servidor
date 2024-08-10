@@ -1,22 +1,26 @@
 services:
-  postgresql:
-    image: postgres:16-alpine3.20
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: database
+  mongo:
+    image: mongodb/mongodb-community-server:7.0-ubuntu2204
+    container_name: mongo
     ports:
-      - 5432:5432
+      - 27017:27017
     volumes:
-      - ./server/infra/postgresql/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:rw
-      - ./server/infra/postgresql/data:/var/lib/postgresql/data:rw
+      - ./server/infra/mongo/data:/data/db:rw
+      - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
+    # - ./server/infra/mongo/config/mongodb.conf:/etc/mongodb.conf:rw
+    networks:
+      - Mynetwork
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=mongo
+      - MONGODB_INITDB_ROOT_PASSWORD=password
+      - MONGODB_INITDB_DATABASE=BancoDados
     deploy:
       mode: replicated
       replicas: 1
       resources:
         limits:
-          cpus: "0.1"
-          memory: 100M
+          cpus: "0.25"
+          memory: 250M
         reservations:
           cpus: "0.1"
           memory: 50M
@@ -26,53 +30,17 @@ services:
         max_attempts: 3
         window: 60s
 
-    networks:
-      - Mynetwork
-
-  mqttBroker:
-    image: iegomez/mosquitto-go-auth:2.1.0-mosquitto_1.6.14
-    depends_on:
-      - postgresql
+  mosquitto:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    restart: unless-stopped
     ports:
       - 1883:1883
       - 1884:1884
-      - 9001:9001
-
     volumes:
-      - ./server/infra/broker/data:/mosquitto/data
-      - ./server/infra/broker/log:/mosquitto/log
-      - ./server/infra/broker/mosquitto.conf:/etc/mosquitto/mosquitto.conf
-
-    networks:
-      - Mynetwork
-
-    deploy:
-      mode: replicated
-      replicas: 1
-      resources:
-        limits:
-          cpus: "0.1"
-          memory: 100M
-        reservations:
-          cpus: "0.1"
-          memory: 50M
-      restart_policy:
-        condition: on-failure
-        delay: 10s
-        max_attempts: 3
-        window: 60s
-
-  pgadmin:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: user@email.com
-      PGADMIN_DEFAULT_PASSWORD: user
-    ports:
-      - 5050:80
-    networks:
-      - Mynetwork
-
-  nextApp:
+      - ./server/infra/mosquitto/data:/mosquitto/data:rw
+      - ./server/infra/mosquitto/log:/mosquitto/log:rw
+      - ./server/infra/mosquitto/config:/mosquitto/config:rw
 
 networks:
   Mynetwork:
