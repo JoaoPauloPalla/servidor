@@ -34,6 +34,6 @@ yarn-error.log*
 next-env.d.ts
 
 #Diretorios
-./server/infra/mongo/data/
-./server/infra/postgresql/data/
-./server/infra/mosquitto/data/
+**/mongo/data/
+**/postgresql/data/
+**/mosquitto/data/
