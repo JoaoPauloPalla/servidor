@@ -7,7 +7,6 @@ services:
     volumes:
       - ./server/infra/mongo/data:/data/db:rw
       - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
-    # - ./server/infra/mongo/config/mongodb.conf:/etc/mongodb.conf:rw
     networks:
       - Mynetwork
     environment:
@@ -41,6 +40,17 @@ services:
       - ./server/infra/mosquitto/data:/mosquitto/data:rw
       - ./server/infra/mosquitto/log:/mosquitto/log:rw
       - ./server/infra/mosquitto/config:/mosquitto/config:rw
+
+  makebeer:
+    container_name: makebeer
+    build:
+      context: ./server/apps/makebeer
+      dockerfile: dev.Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - Mynetwork
 
 networks:
   Mynetwork:
