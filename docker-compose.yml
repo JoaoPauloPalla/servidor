@@ -15,8 +15,8 @@ services:
       replicas: 1
       resources:
         limits:
-          cpus: "0.1"
-          memory: 100M
+          cpus: "0.25"
+          memory: 250M
         reservations:
           cpus: "0.1"
           memory: 50M
@@ -37,8 +37,7 @@ services:
     volumes:
       - ./server/infra/mongo/data:/data/db:rw
       - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
-      - ./server/infra/mongo/config/mongodb.conf:/etc/mongodb.conf:rw
-      # - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d
+    # - ./server/infra/mongo/config/mongodb.conf:/etc/mongodb.conf:rw
     networks:
       - Mynetwork
     environment:
@@ -50,8 +49,8 @@ services:
       replicas: 1
       resources:
         limits:
-          cpus: "0.1"
-          memory: 100M
+          cpus: "0.25"
+          memory: 250M
         reservations:
           cpus: "0.1"
           memory: 50M
@@ -62,6 +61,7 @@ services:
         window: 60s
 
   mqttBroker:
+    container_name: mqttBroker
     image: iegomez/mosquitto-go-auth:2.1.0-mosquitto_1.6.14
     depends_on:
       - mongo
@@ -79,7 +79,7 @@ services:
       replicas: 1
       resources:
         limits:
-          cpus: "0.1"
+          cpus: "0.25"
           memory: 100M
         reservations:
           cpus: "0.1"
@@ -90,21 +90,14 @@ services:
         max_attempts: 3
         window: 60s
 
-  pgadmin:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: user@email.com
-      PGADMIN_DEFAULT_PASSWORD: user
-    ports:
-      - 5050:80
-    networks:
-      - Mynetwork
-
   makebeer:
     container_name: makebeer
     build:
       context: ./server/apps/makebeer
       dockerfile: dev.Dockerfile
+      args:
+        ENV_VARIABLE: ${ENV_VARIABLE}
+        NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
     restart: always
     ports:
       - 3000:3000
