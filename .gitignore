@@ -30,11 +30,10 @@
 */.vercel
 
 # typescript
-**/*.tsbuildinfo
+**/*.tsbuildinfogit
 **/next-env.d.ts
 
 #Diretorios
-**/mongo/data/*
-**/postgresql/data/*
-**/mosquitto/data/*
-**/mosquitto/log/*
+**/data/**
+**/mosquitto.db
+**/mosquitto.log

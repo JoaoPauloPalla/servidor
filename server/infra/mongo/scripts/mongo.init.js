@@ -2,7 +2,7 @@ db = db.getSiblingDB("BancoDados");
 
 try {
   db.createUser({
-    user: "nextapp",
+    user: "user",
     pwd: "password",
     roles: [
       {
@@ -54,9 +54,8 @@ try {
   });
 
   db.Mqtt.insert({
-    username: "test",
-    password:
-      "PBKDF2$sha512$100000$os24lcPr9cJt2QDVWssblQ==$BK1BQ2wbwU1zNxv3Ml3wLuu5//hPop3/LvaPYjjCwdBvnpwusnukJPpcXQzyyjOlZdieXTx6sXAcX4WnZRZZnw==",
+    username: "user",
+    password: "password",
     superuser: true,
     acls: [
       { topic: "test/topic/1", acc: 1 },
