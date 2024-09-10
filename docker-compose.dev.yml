@@ -1,4 +1,36 @@
 services:
+  mongo:
+    image: mongodb/mongodb-community-server:7.0-ubuntu2204
+    container_name: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./server/infra/mongo/data:/data/db:rw
+      - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
+      - ./server/infra/mongo/config/mongodb.conf:/etc/mongodb.conf:rw
+      # - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d
+    networks:
+      - Mynetwork
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=mongo
+      - MONGODB_INITDB_ROOT_PASSWORD=password
+      - MONGODB_INITDB_DATABASE=BancoDados
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 100M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 60s
+
   postgresql:
     image: postgres:16-alpine3.20
     environment:
@@ -72,7 +104,25 @@ services:
     networks:
       - Mynetwork
 
-  nextApp:
+  app:
+    build:
+      context: ./server/apps/app-cervejaria
+      dockerfile: Dockerfile.dev
+    container_name: app-cervejaria
+    environment:
+      - WATCHPACK_POLLING=true
+    volumes:
+      - ./server/apps/app-cervejaria:/app
+      - /server/apps/app-cervejaria/node_modules
+      - /app/.next
+    env_file:
+      - ./server/apps/app-cervejaria/.env.local
+    ports:
+      - 3000:3000
+    networks:
+      - Mynetwork
+    depends_on:
+      - postgresql
 
 networks:
   Mynetwork:
