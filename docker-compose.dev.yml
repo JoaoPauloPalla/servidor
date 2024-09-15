@@ -24,41 +24,41 @@ services:
           memory: 100M
         reservations:
           cpus: "0.1"
-          memory: 50M
+          memory: 100M
       restart_policy:
         condition: on-failure
         delay: 10s
         max_attempts: 3
         window: 60s
 
-  postgresql:
-    image: postgres:16-alpine3.20
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: database
-    ports:
-      - 27017:27017
-    volumes:
-      - ./server/infra/mongo/data:/data/db:rw
-      - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
-    networks:
-      - Mynetwork
-    deploy:
-      mode: replicated
-      replicas: 1
-      resources:
-        limits:
-          cpus: "0.25"
-          memory: 250M
-        reservations:
-          cpus: "0.1"
-          memory: 50M
-      restart_policy:
-        condition: on-failure
-        delay: 10s
-        max_attempts: 3
-        window: 60s
+  # postgresql:
+  #   image: postgres:16-alpine3.20
+  #   environment:
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: postgres
+  #     POSTGRES_DB: database
+  #   ports:
+  #     - 27017:27017
+  #   volumes:
+  #     - ./server/infra/mongo/data:/data/db:rw
+  #     - ./server/infra/mongo/scripts:/docker-entrypoint-initdb.d:rw
+  #   networks:
+  #     - Mynetwork
+  #   deploy:
+  #     mode: replicated
+  #     replicas: 1
+  #     resources:
+  #       limits:
+  #         cpus: "0.25"
+  #         memory: 250M
+  #       reservations:
+  #         cpus: "0.1"
+  #         memory: 50M
+  #     restart_policy:
+  #       condition: on-failure
+  #       delay: 10s
+  #       max_attempts: 3
+  #       window: 60s
 
   mosquitto:
     image: eclipse-mosquitto
@@ -71,23 +71,27 @@ services:
       - ./server/infra/mosquitto/data:/mosquitto/data:rw
       - ./server/infra/mosquitto/log:/mosquitto/log:rw
       - ./server/infra/mosquitto/config:/mosquitto/config:rw
-
-  makebeer:
-    container_name: makebeer
-    build:
-      context: ./server/apps/makebeer
-      dockerfile: dev.Dockerfile
-    restart: always
-    ports:
-      - 3000:3000
-    networks:
-      - Mynetwork
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 100M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 60s
 
   cervejaria:
     build:
       context: ./server/apps/app-cervejaria
       dockerfile: Dockerfile.dev
-    container_name: app-cervejaria
+    container_name: cervejaria
     environment:
       - WATCHPACK_POLLING=true
     volumes:
@@ -100,8 +104,23 @@ services:
       - 3000:3000
     networks:
       - Mynetwork
-    # depends_on:
-    #   - postgresql
+    depends_on:
+      - mongo
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 100M
+        reservations:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 60s
 
 networks:
   Mynetwork:
