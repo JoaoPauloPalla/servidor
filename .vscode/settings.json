@@ -1,0 +1,21 @@
+{
+    "cSpell.ignoreWords": [
+        "Configuracao",
+        "Fermentacao",
+        "Historico",
+        "Maturacao",
+        "Producao",
+        "Refrigeracao",
+        "descricao",
+        "fermentacao",
+        "medicao",
+        "setpoint",
+        "situacao",
+        "topico",
+        "usuario",
+        "versao"
+    ],
+    "cSpell.words": [
+        "tailwindcss"
+    ]
+}
