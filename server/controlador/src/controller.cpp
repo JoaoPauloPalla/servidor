@@ -8,7 +8,7 @@ Controller::Controller() {
     temperatureSetpoint = 0.0;
     temperatureHysteresis = 0.0;
     isFreezerActive = false;
-
+    
     sensor = new Adafruit_MLX90614();
     buffer = xQueueCreate(60, 256);
     mqttClient = new MqttClient();
@@ -21,15 +21,15 @@ Controller::~Controller() {
 }
 
 void Controller::runTasks() {
-    delay(3000);
-    // Initialize mqtt client
-    // mqttClient->init();
+
+    ESP_LOGI("Controller", "Creating tasks");
+    delay(5000);
 
     // Initialize sensor
     if (sensor->begin()) {
-        Serial.println("Sensor initialized");
+        ESP_LOGI("Controller", "Temperature sensor initialized");
     }else {
-        Serial.println("Sensor not initialized");
+        ESP_LOGE("Controller", "Sensor not initialized");
     }
 
     // Initialize temperature control
@@ -38,7 +38,7 @@ void Controller::runTasks() {
 }
 
 void Controller::taskMQTT(void *args) {
-    Serial.println("Task taskMQTT created");
+    ESP_LOGI("Controller", "[TaskMQTT] Task taskMQTT created");
     Controller *controller = (Controller *)args;
     controller->mqttClient->init();
     JsonDocument data;
@@ -50,58 +50,49 @@ void Controller::taskMQTT(void *args) {
             serializeJson(data, payload);
             if (controller->mqttClient->connected()) {
                 if (controller->mqttClient->publish("temp", payload) ){
-                    // Serial.println("Data published");
+                    ESP_LOGI("Controller", "[TaskMQTT] Data published");
                 }else{
-                    Serial.println("Data not published");
+                    ESP_LOGE("Controller", "[TaskMQTT] Data not published");
                 }
             }else{
-                Serial.println("Mqtt not connected");
+                ESP_LOGE("Controller", "[TaskMQTT] Mqtt not connected");
+                controller->mqttClient->init();
             }
         }
     }
 }
 
 void Controller::taskTemperatureControl(void *args) {
-    Serial.println("Task taskTemperatureControl created");
+    ESP_LOGI("Controller", "[taskTemperatureControl] Task taskTemperatureControl created");
     Controller *controller = (Controller *)args;
 
     float freezerTemperature = 0;
     float temperature = 0;
-
+    
     while (true) {
         freezerTemperature = round(controller->sensor->readAmbientTempC()*100)/100;
         temperature = round(controller->sensor->readObjectTempC()*100)/100;   
         vTaskDelay(2000);
 
-        controller->data["controllerId"] = 0;
-        controller->data["recipeId"] = 0;
-        controller->data["timestamp"] = __TIMESTAMP__;
-        controller->data["freezerTemperature"] = freezerTemperature;
-        controller->data["temperature"] = temperature;
-        controller->data["setpointTemperature"] = controller->temperatureSetpoint;
-        controller->data["isFreezerActive"] = false;
-        
-        if ( xQueueSend(controller->buffer, &controller->data, pdMS_TO_TICKS(0)) ){
-            // Serial.println("Data sent to buffer.");
-         }
-        else{
-            Serial.println("Data not sent to buffer.");
+        if (temperature > 0 && freezerTemperature > 0) {
+            
+            controller->data["controllerId"] = 0;
+            controller->data["recipeId"] = 0;
+            controller->data["timestamp"] = __TIMESTAMP__;
+            controller->data["freezerTemperature"] = freezerTemperature;
+            controller->data["temperature"] = temperature;
+            controller->data["setpointTemperature"] = controller->temperatureSetpoint;
+            controller->data["isFreezerActive"] = false;
+            
+            if ( xQueueSend(controller->buffer, &controller->data, pdMS_TO_TICKS(0)) ){
+                ESP_LOGI("Controller", "[taskTemperatureControl] Data sent to buffer.");
+            }
+            else{
+                ESP_LOGE("Controller", "[taskTemperatureControl] Data not sent to buffer.");
+            }
+
         }
 
         vTaskDelay(controller->scanTime*1000);
     }
-}
-
-void Controller::callback(char *topic, byte *payload, unsigned int length){
-    
-    String msg; 
-    //obtem a string do payload recebido
-    for(int i = 0; i < length; i++) 
-    {
-       char c = (char)payload[i];
-       msg += c;
-    }
-    Serial.print("[MQTT] Mensagem recebida: ");
-    Serial.println(msg); 
-
 }

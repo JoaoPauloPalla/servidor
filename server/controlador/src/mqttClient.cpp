@@ -21,31 +21,33 @@ MqttClient::~MqttClient() {
     if(wifiClient != nullptr ) delete wifiClient;
 }
 
-void MqttClient::init( ) {
-
-    Serial.println("Connecting to WiFi..");
-    if (!WiFi.config(ip, gateway, subnet)) {
-        Serial.println("Connection failed to configure");
-    }
-    WiFi.begin(ssid, wifiPassword);
-    while(WiFi.status() != WL_CONNECTED){
-        Serial.println("Connecting to WiFi..");
-        delay(1000);
-    }
-    Serial.println(WiFi.localIP());
-
+void MqttClient::init() {
+    ESP_LOGI("MqttClient", "[init] Initializing MQTT");
     this->setServer(this->broker, this->broker_port);
     this->setCallback(callback);
+    
+    this->connectWifi();
     this->setClient(*wifiClient);
     if (this->connect(this->user, this->user, this->password)) {
-        Serial.println("MQTT connected");
+        ESP_LOGI("MqttClient", "[init] MQTT connected");
     } else {
-        Serial.println("MQTT not connected");
+        ESP_LOGE("MqttClient", "[init] MQTT not connected");
     } 
 
     this->subscribe(this->config_topic, 0);
     this->loop();
+}
 
+void MqttClient::connectWifi() {
+    ESP_LOGI("MqttClient", "[connectWifi] Connecting to WiFi..");
+    if (!WiFi.config(ip, gateway, subnet)) {
+        ESP_LOGI("MqttClient", "[connectWifi] Connection failed to configure");
+    }
+    WiFi.begin(ssid, wifiPassword);
+    while(WiFi.status() != WL_CONNECTED){
+        ESP_LOGE("MqttClient", "[connectWifi] Connecting to WiFi...");
+        delay(1000);
+    }
 }
 
 void MqttClient::sendData(JsonDocument doc) {
@@ -67,6 +69,5 @@ void MqttClient::callback(char *topic, byte *payload, unsigned int length) {
        char c = (char)payload[i];
        msg += c;
     }
-    Serial.print("[MQTT] Mensagem recebida: ");
-    Serial.println(msg); 
+    ESP_LOGI("MqttClient", "[callback] Mensagem recebida");
 }

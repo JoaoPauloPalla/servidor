@@ -25,6 +25,8 @@ class MqttClient : public PubSubClient {
         ~MqttClient();
 
         void init();
+        void connectWifi();
         void sendData(JsonDocument);
         static void callback(char *, byte *, unsigned int);
+        
 };
